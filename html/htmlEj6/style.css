@@ -1,0 +1,10 @@
+
+
+button::before {
+    content: 'Pasa por encima';
+}
+
+button:hover {
+    color:white;
+    background-color: green;
+} 
