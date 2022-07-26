@@ -1,0 +1,11 @@
+
+.btn-modern {
+    transition: all 0.4s;
+}
+
+.btn-modern:hover {
+    transform: translateY(-5px);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    background-color: blueviolet;
+    color: aquamarine;
+}
