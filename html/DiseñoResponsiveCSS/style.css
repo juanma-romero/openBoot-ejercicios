@@ -1,0 +1,21 @@
+body {
+    display: flex;
+
+}
+main {
+    flex-grow: 3;
+    background-color: aquamarine;
+}
+aside {
+    background-color: rgb(85, 145, 145);
+}
+
+@media  (max-width: 640px) {
+    aside {
+        display: flex;
+        flex-direction: row
+    }
+    body {
+        flex-direction: column-reverse;
+    }    
+}
